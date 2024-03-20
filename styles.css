@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background: url(./img/new.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+
+}
+
+
+.container {
+    padding: 20px;
+    background-color: #ffffff;
+    opacity: 0.7;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ 
+}
+
+button {
+    padding: 10px;
+    font-size: 50px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    transition: opacity 0.3s ease-in-out;
+}
+
+button:hover {
+    opacity: .7;
+}
+
+button:active {
+    opacity: 0.4;
+}
+#stone {
+    background-color: #ffffff;
+}
+
+#paper {
+    background-color: #ffffff;
+}
+
+#scissors {
+    background-color: #ffffff;
+}
+
+.buttons {
+    margin: 30px 0;
+    display: flex;
+    gap: 30px;
+    
+}
+
+
+p {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.My-score span {
+    color: rgba(0, 0, 255, 0.788);
+}
+
+.machine-score span {
+    color: rgba(255, 0, 0, 0.945);
+}
+
