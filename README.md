@@ -22,9 +22,9 @@
 
 
 
-<p float="left">
 
- <img src="https://github.com/lbastoss/project-jokenpo/blob/main/img/Screenshot%202024-05-01%20200300.png" width="700"/>
+
+ <img align="center" src="https://github.com/lbastoss/project-jokenpo/blob/main/img/Screenshot%202024-05-01%20200300.png" width="700" align="center"/>
 <br>
 <br>
  
